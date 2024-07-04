@@ -1,0 +1,35 @@
+body{
+    background-color: #0ba047;
+}
+.logo{
+    width: 20%;
+}
+input{
+    border:2px solid #ced4da;
+    
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:white;
+}
+ textarea::placeholder {
+    color: #ced4da!important;
+  }
+ 
+    textarea {
+       
+        resize: none;
+    }
+
+  button{
+    padding: 5px;
+    color:rgb(1, 186, 100);
+    font-family: "Anton", sans-serif;
+    transition: all 0.5s;
+    border: none;
+    background-color: white!important;
+}
+button:hover{
+    background-color: rgba(6, 133, 142, 0.902)!important;
+    color:white;
+}

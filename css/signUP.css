@@ -1,0 +1,52 @@
+body{
+  background-color: #0ba047;
+}
+button{
+    padding: 5px;
+    color:rgb(1, 186, 100);
+    font-family: "Anton", sans-serif;
+    transition: all 0.5s;
+    border: none;
+    background-color: white!important;
+}
+button:hover{
+    background-color: rgba(6, 133, 142, 0.902)!important;
+    color:white;
+}
+.signup{
+    box-shadow:15px 15px 25px 25px rgba(0, 0, 0,0.5);
+    height: 95%;
+}
+.login{
+    box-shadow:15px 15px 25px 25px rgba(0, 0, 0,0.5);
+    height: 95%;
+}
+input{
+    border:2px solid #ced4da;
+    
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:white;
+}
+ input::placeholder {
+    color: #ced4da!important;
+  }
+  .signup a{
+    transition: all 0.5s;
+  }
+  .signup a:hover{
+    text-decoration:underline!important;
+  }
+  .signup img{
+       width: 20%;
+  }
+  .login a{
+    transition: all 0.5s;
+  }
+  .login a:hover{
+    text-decoration:underline!important;
+  }
+  .login img{
+       width: 20%;
+  }

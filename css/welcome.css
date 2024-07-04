@@ -1,0 +1,25 @@
+body{
+    background-color: #0ba047;
+}
+.links{
+    transition: all 1s;
+    width: 50%;
+    color:rgb(1, 186, 100);
+    font-family: "Anton", sans-serif;
+}
+.logout{
+    transition: all 1s;
+    color:rgb(1, 186, 100);
+    font-family: "Anton", sans-serif;
+}
+.logout:hover{
+    background-color: rgba(6, 133, 142, 0.902);
+    color:white;
+}
+.links:hover{
+    background-color: rgba(6, 133, 142, 0.902);
+    color:white;
+}
+.logo{
+    width: 20%;
+}
